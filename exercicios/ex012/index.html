@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="midia/meuv1deo1.mp4" width="200" controls autoplay></video>
+    <video  width="200" poster="imagens/cerveja.png" preload="metadata" controls autoplay loop>
+        <source src="midia/meuv1deo1.mp4" type="video/mp4">
+        <source src="midia/meuv1deo1.webm" type="video/webm">
+        <source src="midia/meuv1deo1.ogv" type="video/ogv">
+        <source src="midia/meuv1deo1.mpeg" type="video/mpeg">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos. </p>
+    </video>
+    <h1>Utilizando videos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kilJmP2kGC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Utilizando videos do Vimeo</h1>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/239932391?h=90ffc8a9ef&color=ff9933&title=0&portrait=0" style="position:absolute;top:0;left:0;width:50%;height:50%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<
+</body>
+</html>
